@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEE WITH MEDIA QUERIES</title>
+    <style>
+        #par{
+            width: 70%;
+            height: 600px;
+            /* border: 2px solid indianred; */
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,31.5%);
+            grid-template-rows: repeat(3,30%);
+            gap: 30px;
+            
+        }
+        .chill{
+            /* border: 2px solid orange; */
+            display: grid;
+            grid-template-columns:70% 10%;
+            grid-template-rows: repeat(2,50%);
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+        }
+        .core1{
+            /* border: 2px solid darkblue; */
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .core2{
+            /* border: 2px solid darkblue; */
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .core3{
+            /* border: 2px solid darkblue;  */
+            margin-left: 30px;
+            width: 250px;
+        }
+        .p1{
+            color: rgb(160, 116, 4);
+            font-size: 24px;
+        }
+        .p2{
+            color: rgb(153, 153, 153);
+            font-size: 17px;
+            
+            margin-top: 10px;
+        }
+        @media all and (min-width:700px) and (max-width:1175px){
+        #par{
+            grid-template-columns: repeat(2,40%);
+            }
+        }
+
+    @media all and (max-width:699px){
+        #par{
+            grid-template-columns: repeat(1,90%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <div id="par">
+        <div class="chill">
+            <div class="core1">
+                <h2>Cappuccino</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Americano</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Espresso</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Macchiato</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Mocha</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Coffee Latte</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Piccolo Latte</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Ristretto</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+        <div class="chill">
+            <div class="core1">
+                <h2>Affogato43</h2>
+            </div>
+            <div class="core2">
+                <p class="p1"><b>$49</b></p>
+            </div>
+            <div class="core3">
+                <p class="p2"><b>Usage of internet is become more common due to rapid advance.</b></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

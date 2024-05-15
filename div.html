@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #hea{
+        text-align: center;
+        font-family: Poppins (woff2)
+ui-sans-serif
+system-ui
+-apple-system
+BlinkMacSystemFont
+"Segoe UI"
+Roboto
+"Helvetica Neue"
+Arial
+"Noto Sans"
+sans-serif
+"Apple Color Emoji"
+"Segoe UI Emoji"
+"Segoe UI Symbol"
+"Noto Color Emoji";
+        font-size: 34px;
+
+    }
+.d{
+    height: 200px;
+    width: 101;
+}
+#parent{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border: 2px solid rgb(47, 0, 255);
+    justify-content: space-evenly;
+}
+.child{
+    border: 2px solid red;
+    height:100%;
+    width: 23%;
+    
+}
+.sel{
+    width:100%;
+    
+}
+.pro{
+    text-align: center;
+}
+.or{
+    text-align: center;
+}
+</style>
+<body>
+    <p id="hea"><b>Board Members</b>
+    </p>
+    <img class="d" src="https://www.masaischool.com/images/our-investors/india-q-borderless.svg" alt="">
+    <img class="d" src="https://www.masaischool.com/images/our-investors/unitus-borderless.svg" alt="">
+    <img class="d" src="https://www.masaischool.com/images/our-investors/omidyar-borderless.svg" alt="">
+    <div id="parent">
+        <div class="child">
+            <img class="sel" src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <h3 class="pro">Vijay Shekhar Sharma</h3>
+            <p class="or">Founder & CEO</p>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg" alt="">
+        </div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Calculator</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(6, 101, 90);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #cap{
+            height:500px;
+            width: 25%;
+            /* border: 2px solid rgb(49, 45, 7); */
+            margin: auto;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+        }
+        .cap1{
+            height: 80%;
+            width: 80%;
+            /* border: 3px solid darkblue; */
+            margin-top: 50px;
+            margin-left: 35px;
+            display: grid;
+            grid-template-columns: repeat(4,22%);
+            grid-template-rows: repeat(5,18%);
+            gap: 10px;
+        }
+        .cap3{
+            /* border: 1px solid darkred; */
+            grid-column-start: 1;
+            grid-column-end: 5;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 8px;    
+        }
+        .cap31{
+            /* border: 1px solid darkred; */
+            font-size: x-large;
+            text-align: center;
+            line-height:60px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 8px;
+            
+        }
+        .cap32{
+            /* border: 1px solid darkred; */
+            font-size: x-large;
+            text-align: center;
+            line-height:60px;
+            color: white;
+            background-color: black;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        }
+        .cap33{
+            /* border: 1px solid darkred; */
+            font-size: x-large;
+            text-align: center;
+            line-height:60px;
+            color: white;
+            background-color: rgb(191, 5, 5);
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div id="cap">
+        <div class="cap1">
+            <div class="cap3"></div>
+            <div class="cap31"><b>1</b></div>
+            <div class="cap31"><b>2</b></div>
+            <div class="cap31"><b>3</b></div>
+            <div class="cap32"><b>+</b></div>
+            <div class="cap31"><b>4</b></div>
+            <div class="cap31"><b>5</b></div>
+            <div class="cap31"><b>6</b></div>
+            <div class="cap32"><b>-</b></div>
+            <div class="cap31"><b>7</b></div>
+            <div class="cap31"><b>8</b></div>
+            <div class="cap31"><b>9</b></div>
+            <div class="cap32"><b>x</b></div>
+            <div class="cap33"><b>C</b></div>
+            <div class="cap31"><b>0</b></div>
+            <div class="cap32"><b>=</b></div>
+            <div class="cap32"><b>/</b></div>
+        </div>
+
+    </div>
+</body>
+</html>

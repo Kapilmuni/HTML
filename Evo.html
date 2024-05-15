@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IND</title>
+    <style>
+        #phone{
+            height: 500px;
+            width: 80%;
+            border: 2px black dotted;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .screen{
+            height: 90%;
+            width:480px;
+            border: 2px black dotted;
+            margin: auto;
+            
+        }
+        .gaurd{
+            height: 90%;
+            width: 260px;
+            border: 2px black dotted;
+            margin-left: 50px;
+            display: flex;
+            margin: auto;
+            justify-content: space-between;
+        }
+        .touch{
+            height: 90%;
+            width: 18%;
+            border: 1px solid black;
+            margin: auto;
+            font-size: 12px;
+            text-align: center;
+            
+        }
+        .gaurd> .touch:nth-of-type(3){
+            height: 90%;
+            width: 23%;
+            display: flex;
+            flex-direction:column;
+        }
+        .bar{
+            height: 12%;
+            width: 50%;
+            border: 2px black dotted;
+            margin: auto;
+            font-size:25px;
+            text-align: center;
+            margin-bottom: 50px;  
+        }
+        #phone> .screen:nth-of-type(2){
+            font-size: 12px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .camera{
+            height: 30px;
+            width: 90%;
+            margin: auto;
+            border: 2px black dotted;
+            
+        }
+        .screen> .camera:nth-of-type(2){
+            height: 320px;
+            display: flex;
+            flex-direction: column;
+        }
+        .rock{
+            height: 25px;
+            width: 90%;
+            margin: auto;
+            border: 1px solid black;
+        }
+        .camera>.rock:nth-of-type(2){
+            height: 200px;
+        }
+        .paper{
+            height: 40px;
+            width: 90%;
+            margin: auto;
+            border: 1px solid black;
+        }
+        .camera>.rock:nth-of-type(2){
+            display: flex;
+            flex-direction: column;
+        }
+        .rock>.paper:nth-of-type(1){
+            text-align: center;
+            font-size: 12px;
+            background-color:orange ;
+        }
+        .rock>.paper:nth-of-type(3){
+            text-align: center;
+            font-size: 12px;
+            background-color:rgb(1, 83, 21) ;
+        }
+    </style>
+</head>
+<body>
+    <div id="phone">Grandfather
+        <div class="screen">Father
+            <div class="gaurd ">Person 1
+                <div class="touch">Child 1</div>
+                <div class="touch">Child 2</div>
+                <div class="touch">Child 3
+                    <div class="bar">1</div>
+                    <div class="bar">2</div>
+                    <div class="bar">3</div>
+                </div>
+            </div>
+        </div>
+        <div class="screen">Uncle
+            <div class="camera">Person 1</div>
+            <div class="camera">Person 2
+                <div class="rock">Child 1</div>
+                <div class="rock">Child 2
+                    <div class="paper">1</div>
+                    <div class="paper">2</div>
+                    <div class="paper">3</div>
+                </div>
+                <div class="rock">Child 3</div>
+            </div>
+            <div class="camera">Person 3</div>
+        </div>
+    </div>
+</body>
+</html>
